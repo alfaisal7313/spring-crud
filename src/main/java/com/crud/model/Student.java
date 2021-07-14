@@ -22,8 +22,7 @@ public class Student {
     private LocalDate dob;
     private Integer age;
 
-    public Student() {
-    }
+    public Student() { }
 
     public Student(long id, String name, String email, LocalDate dob, Integer age) {
         this.id = id;
